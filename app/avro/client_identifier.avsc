@@ -1,0 +1,9 @@
+{
+   "type":"record",
+   "name":"ClientIdentifier",
+   "namespace":"com.baeldung.avro",
+   "fields":[
+      { "name":"hostName", "type":"string" },
+      { "name":"ipAddress", "type":"string" }
+   ]
+}
